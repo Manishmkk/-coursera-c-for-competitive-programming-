@@ -1,0 +1,10 @@
+Given two pointers ptr1 and ptr2. Write piece of code which lets them to point at the same place the memory.
+You may assume that somewhere above in the same block are declared two pointers ptr1 and ptr2 of type int *, pointing at the some allocated variables in the local memory of your program.
+Your piece of code should not contain any function deﬁnitions (including main). You are not allowed to perform the input/output in your piece of code.
+
+
+solution:
+
+int a;
+ptr1 = &a;
+ptr2 = &a;
